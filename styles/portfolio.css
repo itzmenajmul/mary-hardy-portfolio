@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common shared styles */
 body {
     font-family: 'Alkatra', cursive;
@@ -7,6 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 .text-primary {
@@ -22,6 +27,15 @@ body {
     font-weight: 700;
     padding: 18px 35px;
 }
+.btn-contact{
+    border:1px solid #FD6E0A;
+    border-radius: 5px;
+    color:#FD6E0A;
+    background:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
 
 /* nav related styles */
 nav {
@@ -29,6 +43,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    
 }
 
 .nav-title {
@@ -56,9 +71,11 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    padding-top: 50px;
+    /* background-size: contain; */
 }
 
 .banner {
